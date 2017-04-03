@@ -44,6 +44,3 @@ def cv_sets(data, K_Folds = 10):
         test_sets.append(sets[1])
         test_picks = sets[2]
     return training_sets, test_sets
-
-if __name__ == "__main__":
-    continue
